@@ -6,7 +6,7 @@ This is a starter repo for the Capstone project in the [Udacity C++ Nanodegree P
 
 ## My contribution
 
-My core contribution to this project is adding the `<Score>` class, this class saves the player score compares it with previous scores of other players who played this game before to determine if this score is a new record.
+My core contribution to this project is adding the `Score` class, this class saves the player score and compares it with previous scores of other players who played this game before to determine if this score is a new record.
 
 So what is expected from my contribution is:
 * Recieve the player information from the player
@@ -17,29 +17,29 @@ So what is expected from my contribution is:
 
 ## Rubric Points
 * __The project demonstrates an understanding of C++ functions and control structures (A variety of control structures are used in the project. The project code is clearly organized into functions).__
-	* The `<Score>` class is clearly organized into many functions
+	* The `Score` class is clearly organized into many functions
 
 *  __The project reads data from a file and process the data, or the program writes data to a file (The project reads data from an external file or writes data to a file as part of the necessary operation of the program).__
-	* The `<SaveScore>` function saves the player score on a text file 
-	* The `<LoadScore>` function reads previously saved scores from the text file 
+	* The `SaveScore` function saves the player score on a text file 
+	* The `LoadScore` function reads previously saved scores from the text file 
 
 *  __The project accepts user input and processes the input (The project accepts input from a user as part of the necessary operation of the program).__
-	* The `<getPlayerInfo>` function was added in the `<main>` to receive the player name, 		  which is fed to the `<Score>`class constructor for processing
+	* The `getPlayerInfo` function was added in the `main` to receive the player name, which 		  is fed to the `Score`class constructor for processing
 
 *  __The project uses Object Oriented Programming techniques (The project code is organized into classes with class attributes to hold the data, and class methods to perform tasks).__
-	* The project has the `<Score>` class which has many methods inside
+	* The project has the `Score` class which has many methods inside
 
 *  __Classes use appropriate access specifiers for class members (All class data members are explicitly specified as public, protected, or private).__
-	* The `<Score>` class has some class members that are public and others that are private
+	* The `Score` class has some class members that are public and others that are private
 
 *  __Class constructors utilize member initialization lists (All class members that are set to argument values are initialized through member initialization lists).__
-	* The `<Score>` class constructor uses intialization list to initialize some class 		  members.
+	* The `Score` class constructor uses intialization list to initialize some class 		  members.
 
 *  __Classes abstract implementation details from their interfaces (All class member functions document their effects, either through function names, comments, or formal documentation. Member functions do not change program state in undocumented ways).__
-	* All the class members in the`<Score>` has descriptive names that can clearly indicate 		  the function of this member
+	* All the class members in the`Score` has descriptive names that can clearly indicate 		  the function of this member
 
 *  __Classes encapsulate behaviour (Appropriate data and functions are grouped into classes. Member data that is subject to an invariant is hidden from the user. State is accessed via member functions).__
-	* The `<Score>` class has data and functions grouped together and they are hidden from 		  other classes.
+	* The `Score` class has data and functions grouped together and they are hidden from 		  other classes.
 
 
 ## Dependencies for Running Locally
